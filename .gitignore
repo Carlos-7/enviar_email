@@ -1,0 +1,65 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log e cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ambiente virtual (virtualenv, venv, pipenv)
+env/
+venv/
+ENV/
+Pipfile.lock
+.poetry/
+
+# Arquivos de configuração e ambiente
+*.env
+.env.*
+settings_local.py
+secrets.json
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Django-specific
+db.sqlite3
+/media/
+/staticfiles/
+/static/
+
+# Arquivos de migração (opcional ignorar)
+# Se você quiser rastrear migrações, remova essa linha:
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# Cobertura de testes
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.~ 
